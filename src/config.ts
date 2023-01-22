@@ -6,3 +6,4 @@ export const SITE_DESCRIPTION = 'Welcome to my site!';
 export const SITE_TITLE_HEAD = 'Sandro Linux';
 export const NAME = 'Oscar Sanderson';
 export const COPYNOTICE = 'All rights reserved';
+export const RSS_DESCRIPTION = 'The blog of Sandro Linux.';
