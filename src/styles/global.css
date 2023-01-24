@@ -1,34 +1,16 @@
+/* General CSS */
 body {
 	font-family: Verdana, sans-serif;
 	margin: auto;
 	padding: 20px;
 	max-width: 65ch;
 	text-align: left;
-	background-color: #fff;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
-b {
-	color: #222;
-}
-a {
-	color: #660000;
 }
 nav a {
 	margin-right: 10px;
-}
-textarea {
-	width: 100%;
-	font-size: 16px;
 }
 input {
 	font-size: 16px;
@@ -42,6 +24,52 @@ table {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+/* CSS for dark mode users */
+@media (prefers-color-scheme: dark) {
+	body {
+		color: rgb(255, 255, 255);
+		background-color: rgb(10, 10, 10);
+	}
+	a {
+		color: #DC5F00;
+	}
+	a:visited {
+		color: #DC5F00;
+		text-decoration: double;
+	}
+}
+
+/* CSS for light mode users */
+@media (prefers-color-scheme: light) {
+	body {
+		color: #444;
+		background-color: #fff;
+	}
+	blockquote {
+		border: 1px solid #999;
+		color: #222;
+		padding: 2px 0px 2px 20px;
+		margin: 0px;
+		font-style: italic;
+	}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+	color: #222;
+}
+a {
+	color: #660000;
+}
+textarea {
+	width: 100%;
+	font-size: 16px;
 }
 code {
 	padding: 2px 5px;
@@ -59,4 +87,5 @@ blockquote {
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
+}
 }
