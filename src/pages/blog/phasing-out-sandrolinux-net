@@ -1,0 +1,16 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Phasing out sandrolinux.net"
+description: "My legacy website (sandrolinux.net) is going away."
+pubDate: "Jan 22 2023"
+---
+
+So the original reason behind me purchasing the domain name sandrolinux.net was to be a non-javascript dependent verision of my website.
+
+I had to make this seperate version because the old Next JS verision of sandrolinux.com didn't work in text-based browsers such as <a href="https://invisible-island.net/lynx/">Lynx</a>. 
+
+However, with the Astro redesign of my website, it can now load in text-based browsers and without javascript which removes the need for sandrolinux.net.
+
+So to address this, I have removed the main sandrolinux.net website and instead setup a redirect to sandrolinux.com. 
+
+Despite that, sandrolinux.net will sometimes be used for testing. 
