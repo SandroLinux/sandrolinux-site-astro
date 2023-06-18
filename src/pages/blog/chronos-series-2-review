@@ -1,0 +1,12 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Video: Pure Chronos CD Series 2 Review"
+description: "My review of the Pure Chronos CD Series 2 radio"
+pubDate: "Jun 18 2023"
+---
+
+import { YouTube } from 'astro-embed';
+
+## My YouTube Video
+
+<YouTube id="https://www.youtube.com/watch?v=GKWLEv-LW7w" />
