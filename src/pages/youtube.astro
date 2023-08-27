@@ -1,0 +1,20 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+        <meta http-equiv="refresh" content="0; url=https://youtube.com/@SandroLinux" />
+	</head>
+	<body>
+		<main>
+			<p>
+				Redirecting to my YouTube channel ... 
+                <a href="https://youtube.com/@SandroLinux">Click here if it doesn't redirect</a>
+			</p>
+		</main>
+	</body>
+</html>
