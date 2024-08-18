@@ -7,5 +7,5 @@ export const SITE_SEO_DESCRIPTION = 'Welcome to my site!';
 export const SITE_TITLE_HEAD = 'Sandro Linux';
 export const NAME = 'Oscar Sanderson';
 export const COPYNOTICE = 'All rights reserved';
-export const YT_VIDEO = 'https://www.youtube.com/watch?v=NYMZiEVzeTk';
+export const YT_VIDEO = 'https://www.youtube.com/watch?v=ZV7_c8w0e1A';
 export const RSS_DESCRIPTION = 'The blog of Sandro Linux.';
